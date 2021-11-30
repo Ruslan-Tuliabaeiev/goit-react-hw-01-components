@@ -1,19 +1,37 @@
-// import PropTypes from "prop-types";
-//  import {BlocUser} from './components/Blocuser';
-// import './App.css';
 
+import {Profil} from './components/Profil';
+import user from './data/user.json'
 
- import { FriendList } from "./components/FriendList";
- 
-
-
+import {Statistics} from './components/Statistics'
+import data from './data/data.json'
 
 function App() {
   return (
+    <>
 <div>
-<FriendList></FriendList>
+<Profil 
+avatar={user.avatar}
+ username={user.username}
+ tag={user.tag}
+ location={user.location}
+ stats={user.stats}
+> 
+</Profil>
+label={data.label}
+
+<Statistics
+
+/>
  </div>
+ </>
   );
 }
 
 export default App;
+
+
+// user={user.avatar}
+// username={user.username}
+// tag={user.tag}
+// location={user.location}
+// stats={user.stats}
