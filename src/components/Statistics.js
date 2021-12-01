@@ -2,13 +2,14 @@
 import PropTypes from "prop-types";
 
 
-export const Statistics = ({statistics}) => {
+export const Statistics = ({title, stats}) => {
     return (
+      <>
 <section class="statistics">
-  <h2 class="title">Upload stats</h2>
+  <h2 class="title">{title}</h2>
 <ul class="stat-list">
 
-  {statistics.map(({id, label, percentage}) => (
+  {stats.map(({id, label, percentage}) => (
     <li class="item" key={id}>
     
     <span class="label">.{label}</span>
@@ -19,7 +20,7 @@ export const Statistics = ({statistics}) => {
 
   </ul>
 </section>
-
+</>
     )
 }
 

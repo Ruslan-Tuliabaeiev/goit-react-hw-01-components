@@ -1,9 +1,9 @@
 
 import {Profil} from './components/Profil';
-import user from './data/user.json'
+import user from './data/user.json';
 
-import {Statistics} from './components/Statistics'
-import data from './data/data.json'
+import {Statistics} from './components/Statistics';
+import data from './data/data.json';
 
 function App() {
   return (
@@ -17,10 +17,10 @@ avatar={user.avatar}
  stats={user.stats}
 > 
 </Profil>
-label={data.label}
 
 <Statistics
-
+title="Upload stats"
+stats={data}  
 />
  </div>
  </>
