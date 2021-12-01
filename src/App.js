@@ -8,6 +8,9 @@ import data from './data/data.json';
 import {FriendList} from './components/FriendList';
 import friends from './data/friends.json';
 
+import {TransactionHistry} from './components/TransactionHistory';
+import transactions from './data/transactions.json'
+
 function App() {
   return (
     <>
@@ -29,6 +32,9 @@ stats={data}
 friends={friends}
 />
 
+<TransactionHistry
+items={transactions}
+/>
  </div>
  </>
   );

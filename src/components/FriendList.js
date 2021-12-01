@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 export const FriendList = ({friends}) => {
     return (
 <ul class="friend-list">
-       {friends.map(({id,  avatar, name }) => 
+       {friends.map(({id,  avatar, name }) => (
       
       <li class="item" key={id}>
   <span class="status" ></span>
@@ -14,7 +14,7 @@ export const FriendList = ({friends}) => {
    alt="User avatar"
     width="48" />
   <p class="name">{name}</p>
-</li>) }
+</li>)) }
       </ul> 
     )
 }
