@@ -37,9 +37,5 @@ TransactionHistry.propTypes = {
     items: PropTypes.array.isRequired
 }
 
-//  <tr>
-//       <td>Withdrawal</td>
-//       <td>85</td>
-//       <td>USD</td>
-//     </tr>
+
 
