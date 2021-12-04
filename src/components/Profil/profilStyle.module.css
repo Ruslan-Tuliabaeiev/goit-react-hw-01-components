@@ -1,0 +1,62 @@
+
+.profile {
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+   
+    background-color: rgb(225, 219, 230);
+}
+
+.description {
+    
+   width: 100%;
+   
+   display: flex;
+   flex-direction:column;
+   align-items: center; 
+   
+
+    background-color: lawngreen;
+}
+.name {
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+}
+
+.tag {
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+}
+
+
+.location {
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+}
+
+
+
+.stats {
+padding-top: 30px;
+display: flex;
+flex-direction:column;
+height: 200px;
+align-items: center;
+}
+
+.statslist {
+    padding-top: 15px;
+}
+.label {
+    color: rgb(22, 83, 14);
+    padding-right: 15px;
+}
+
+.quantity {
+    color: rgb(59, 16, 90);
+}

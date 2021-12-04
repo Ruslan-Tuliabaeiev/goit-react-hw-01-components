@@ -1,14 +1,14 @@
 
-import {Profil} from './components/Profil';
+import {Profil} from './components/Profil/Profil';
 import user from './data/user.json';
 
-import {Statistics} from './components/Statistics';
+import {Statistics} from './components/Statistics/Statistics';
 import data from './data/data.json';
 
-import {FriendList} from './components/FriendList';
+import {FriendList} from './components/FriendList/FriendList';
 import friends from './data/friends.json';
 
-import {TransactionHistry} from './components/TransactionHistory';
+import {TransactionHistry} from './components/TransactionHistry/TransactionHistory';
 import transactions from './data/transactions.json'
 
 function App() {

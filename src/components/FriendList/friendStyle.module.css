@@ -1,0 +1,40 @@
+
+.friends {
+    display: flex;
+    flex-direction:column;
+
+align-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+background-color: rgb(218, 210, 196);
+    border-radius: 5px;
+     
+}
+
+.item {
+
+    border-radius: 5px;
+   border-color: black;
+}
+
+
+.avatar {
+    background-color: blue;
+    border-radius: 10px;
+  
+    /* border: 10px solid #ece89d; */
+}
+.name {
+    color: black;
+}
+
+.statusOnline {
+    border-radius: 50%;
+    border: 10px solid green;
+}
+
+.statusOffline {
+    border-radius: 50%;
+    border: 10px solid red;
+   
+}
