@@ -2,9 +2,9 @@
 .friends {
     display: flex;
     flex-direction:column;
-
-align-items: center;
-    align-items: center;
+ align-items: center;
+justify-content: center;
+   
     margin-bottom: 20px;
 background-color: rgb(218, 210, 196);
     border-radius: 5px;

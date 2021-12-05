@@ -14,7 +14,7 @@ import transactions from './data/transactions.json'
 function App() {
   return (
     <>
-<div>
+
 <Profil 
 avatar={user.avatar}
  username={user.username}
@@ -35,7 +35,7 @@ friends={friends}
 <TransactionHistry
 items={transactions}
 />
- </div>
+ 
  </>
   );
 }

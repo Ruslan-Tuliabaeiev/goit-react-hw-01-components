@@ -41,22 +41,3 @@
 
 
 
-.stats {
-padding-top: 30px;
-display: flex;
-flex-direction:column;
-height: 200px;
-align-items: center;
-}
-
-.statslist {
-    padding-top: 15px;
-}
-.label {
-    color: rgb(22, 83, 14);
-    padding-right: 15px;
-}
-
-.quantity {
-    color: rgb(59, 16, 90);
-}
