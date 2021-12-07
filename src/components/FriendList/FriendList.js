@@ -16,15 +16,7 @@ export const FriendList = ({friends}) => {
       </ul> 
     )
 }
-//      <li class={style.item} key={id}>
-//   <span className={isOnline ? style.statusOnline : style.statusOffline}></span>
 
-//   <img className={style.avatar}
-//    src={avatar}
-//    alt="User avatar"
-//     width="100" />
-//   <p className={style.name}>{name}</p>
-// </li>
 
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
