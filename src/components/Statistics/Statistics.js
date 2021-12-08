@@ -2,7 +2,7 @@
 import PropTypes from "prop-types";
 import style from './statisticsStyle.module.css'
 
-export const Statistics = ({title, stats}) => {
+export const Statistics = ({title, stats}) => { 
     return (
       <>
 <section className={style.statistics}>
@@ -26,7 +26,7 @@ export const Statistics = ({title, stats}) => {
 }
 
 Statistics.propTypes = {
-  
-    stats: PropTypes.number.isRequired
+  title: PropTypes.string.isRequired,
+    stats: PropTypes.array.isRequired
 }
 
