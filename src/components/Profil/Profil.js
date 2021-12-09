@@ -23,7 +23,10 @@ export const Profil = ({username, tag, location, avatar, stats}) => {
     <p className={style.location}>{location}</p>
   </div>
 
-  <Statistic {...stats}/>
+  <Statistic followers={stats.followers}
+  views={stats.views}
+  likes={stats.likes}
+  />
 </div>
   )
 }
